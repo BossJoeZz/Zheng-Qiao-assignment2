@@ -1,0 +1,14 @@
+.toolItem {
+    margin: 0 10px 0;
+    width: max-content;
+}
+
+.toolBarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    font-size: x-large;
+}

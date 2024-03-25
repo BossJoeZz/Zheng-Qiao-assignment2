@@ -1,0 +1,91 @@
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: #7e7e7e;
+    border: 1px solid #8e8e8e;
+    z-index: 1;
+}
+
+.box:hover {
+    font-size: medium;
+    overflow: visible;
+    z-index: 2;
+    scale: 2;
+}
+
+.live {
+    background-color: #ffff00;
+    color: white;
+}
+
+.heatLevel0 {
+    background-color: #fff;
+}
+
+.heatLevel1 {
+    background-color: #ff5757;
+}
+
+.heatLevel2 {
+    background-color: #ff914d;
+}
+
+.heatLevel3 {
+    background-color: #ff66c4;
+}
+
+.heatLevel4 {
+    background-color: #cb6ce6;
+}
+
+.heatLevel5 {
+    background-color: #8c52ff;
+}
+
+.heatLevel6 {
+    background-color: #5271ff;
+}
+
+.heatLevel7 {
+    background-color: #38b6ff;
+}
+
+.heatLevel8 {
+    background-color: #7ed957;
+}
+
+.heatLevel9 {
+    background-color: #000;
+}
+
+#outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gridIndex {
+    display: flex;
+    height: 660px;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridColumn {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    width: auto;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    height: auto;
+}
+
+
+.cellInfo {
+    margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.introBlock {
+    word-wrap:normal;
+    font-family: inherit;
+    width: 60%;
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.introContainer h1 {
+    text-align: center;
+}

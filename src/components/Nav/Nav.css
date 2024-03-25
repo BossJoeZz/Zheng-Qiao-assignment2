@@ -1,0 +1,24 @@
+.NavBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    position: relative;
+}
+a {
+    color: #383c93;
+    text-decoration: none;
+}
+
+/* 修改链接的文本颜色 */
+.myLink {
+    color: #007bff;
+}
+
+/* 修改链接的鼠标悬停样式 */
+.myLink:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
